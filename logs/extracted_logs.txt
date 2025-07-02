@@ -1,0 +1,4 @@
+Jun 29 10:23:01 ubuntu CRON[1234]: (root) CMD (failed to start service xyz)
+Jun 29 10:25:42 ubuntu systemd[1]: Failed to start MySQL Community Server.
+Jun 29 10:30:10 ubuntu kernel: [   56.789123] critical temperature reached (core 0)
+Jun 29 10:35:27 ubuntu sshd[9876]: error: PAM: Authentication failure for root from 192.168.1.5
