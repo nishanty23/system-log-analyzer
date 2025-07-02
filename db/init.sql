@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS log_analyzer;
+
+USE log_analyzer;
+
+CREATE TABLE IF NOT EXISTS system_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    log_entry TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
